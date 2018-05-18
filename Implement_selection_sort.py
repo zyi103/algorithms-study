@@ -16,6 +16,7 @@ def indexOfMin (array, startIndex):
 	
 def selectionSort (array):
 	for idx, val in enumerate(array):
+		print (array)
 		swap(array, idx, indexOfMin(array, idx))
 
 	
