@@ -74,7 +74,7 @@ def turtleWriteLine (array):
 def turtleSeperator ():
 	turtle.setpos(0,turtle.ycor()+50)
 	turtle.pendown()
-	turtle.forward(300)
+	turtle.forward(300) 
 	turtle.penup()
 	turtle.back(300)
 	turtle.setpos(0,turtle.ycor()-50)
